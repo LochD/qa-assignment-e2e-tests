@@ -1,7 +1,7 @@
 import { Page } from '@playwright/test';
 import { BasePage } from './base-page';
 import { StarWarsSearchPageSelectors } from '../selectors/star-wars-search-page-selectors';
-import {StarWarsSearchPageAssertions} from "../assertions/star-wars-search-page-assertions";
+import { StarWarsSearchPageAssertions } from '../assertions/star-wars-search-page-assertions';
 
 export class StarWarsSearchPage extends BasePage {
     private readonly selectors: StarWarsSearchPageSelectors;

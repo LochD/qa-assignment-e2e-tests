@@ -3,9 +3,9 @@ import { Assertions } from '../utils/assertions';
 import { StarWarsSearchPageSelectors } from '../selectors/star-wars-search-page-selectors';
 
 export class StarWarsSearchPageAssertions {
-    readonly page: Page;
-    readonly assertions: Assertions;
-    readonly selectors: StarWarsSearchPageSelectors;
+    private readonly page: Page;
+    private readonly assertions: Assertions;
+    private readonly selectors: StarWarsSearchPageSelectors;
 
     constructor(page: Page) {
         this.page = page;
